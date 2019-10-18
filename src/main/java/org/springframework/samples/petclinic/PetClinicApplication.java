@@ -37,9 +37,9 @@ public class PetClinicApplication {
         SpringApplication.run(PetClinicApplication.class, args);
         SpringApplication.run(PetClinicApplication.class, args);
         SpringApplication.run(PetClinicApplication.class, args);
-        SpringApplication.run(PetClinicApplication.class, args);
-        SpringApplication.run(PetClinicApplication.class, args);
-        SpringApplication.run(PetClinicApplication.class, args);
-    }
+        SpringApplication.run(PetClinicApplication.class, args)
+        SpringApplication.run(PetClinicApplication.class, args)
+        SpringApplication.run(PetClinicApplication.class, args
+    
 
 }
