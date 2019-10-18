@@ -16,6 +16,8 @@
 
 package org.springframework.samples.petclinic;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
