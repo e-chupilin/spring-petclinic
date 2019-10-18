@@ -31,11 +31,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PetClinicApplication {
 
     public static void main(String[] args) {
-        // SpringApplication.run(PetClinicApplication.class, args);
-		
-		// AtomicInteger aInt1 = new AtomicInteger(0);
-        // AtomicInteger aInt2 = new AtomicInteger(0);
-
-        // if (!aInt1.equals(aInt2)) { System.out.println("EQUALS"); }  // Noncompliant
+        SpringApplication.run(PetClinicApplication.class, args);
+		AtomicInteger aInt1 = new AtomicInteger(0);
+        AtomicInteger aInt2 = new AtomicInteger(0);
+        if (!aInt1.equals(aInt2)) { System.out.println("EQUALS"); }  // Noncompliant
 	}
 }
